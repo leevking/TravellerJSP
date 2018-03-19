@@ -1,6 +1,5 @@
 package entityclasses;
 
-import com.sun.istack.internal.Nullable;
 import entityinterfaces.IAccount;
 
 public class Account implements IAccount {
@@ -14,7 +13,7 @@ public class Account implements IAccount {
 
     }
 
-    public Account(int id, String email, @Nullable int avatarID, String username){
+    public Account(int id, String email, int avatarID, String username){
         this.id = id;
         this.email = email;
         this.avatarID = avatarID;
